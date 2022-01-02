@@ -1,0 +1,40 @@
+website - web page
+web page - hypertext document
+
+domain name: website address
+hosting: Server
+
+browser: chrome, firefox, opera, edge, safari
+
+Internet: golbal network
+network : data transfer system from one pc to another
+
+front-end
+back-end
+
+front-end
+html5
+css3 -
+sass
+bootstrap 5
+
+JavaScript
+jQuery
+reactJS/AngularJS/vueJS
+
+
+back-end
+PHP (80%)
+wordPress (50%)/ Joomla/ Magento / shopify / open cart
+Laravel/codeignator
+
+Java/nodeJS/python/c#/.net
+
+database:
+mysql/pdo/oracle/mongodb
+
+
+Mern
+MongDB ExpressJS React nodeJS
+
+

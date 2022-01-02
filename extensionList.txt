@@ -1,0 +1,6 @@
+Live Server
+HTML End Tag Labels
+Auto Rename Tag
+Live Sass Compiler
+IntelliSense for CSS class names in HTML
+vscode-icons
