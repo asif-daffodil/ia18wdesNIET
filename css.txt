@@ -1,0 +1,11 @@
+Cascading style sheet (css)
+extension : .css
+virsoin: 3
+
+inline css
+internal css
+external css
+
+selector {
+	property : value;
+}
