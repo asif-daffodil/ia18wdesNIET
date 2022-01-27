@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: blue;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+header::before {
+  content: "Hi, ";
+}
+
+header::after {
+  content: "...";
+}
+
+nav {
+  color: red;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+nav::before {
+  content: open-quote;
+}
+
+nav::after {
+  content: close-quote;
+}
+
+aside {
+  color: green;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+aside::before {
+  content: attr(bf);
+}
+
+aside::after {
+  content: attr(gf);
+}
