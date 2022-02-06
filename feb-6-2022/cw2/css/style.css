@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abul {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.abul:hover {
+  transform: scale(120%, 120%);
+}
+
+.babul {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.babul:hover {
+  transform: translateX(20px) translateY(-20px);
+}
+
+.kabul {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.kabul:hover {
+  /* transform: rotateX(360deg); */
+  /* transform: rotateY(360deg); */
+  /* transform: rotateZ(360deg); */
+  transform: rotate(360deg);
+}
