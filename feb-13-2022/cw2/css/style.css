@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Shizuru&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ektu {
+  font-family: "Shizuru", cursive;
+}
+
+.dhaka {
+  font-family: "Festive", cursive;
+}
