@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sumi {
+  color: red;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.sumi::after {
+  content: " girl";
+}
+
+.sumi::before {
+  content: "Ms. ";
+}
+
+.mehedi {
+  width: 480px;
+  height: 480px;
+  background: url("../images/mehedi.jpg");
+  position: relative;
+  overflow: hidden;
+}
+
+.mehedi::before {
+  content: "";
+  width: 240px;
+  height: 480px;
+  background: url("../images/priyanka.jpg");
+  position: absolute;
+  top: 0;
+  left: -240px;
+  transition: 0.5s;
+}
+
+.mehedi::after {
+  content: "";
+  width: 240px;
+  height: 480px;
+  background: url("../images/dipika.jpg");
+  position: absolute;
+  top: 0;
+  right: -240px;
+  transition: 0.5s;
+}
+
+.mehedi:hover::before {
+  left: 0px;
+}
+
+.mehedi:hover::after {
+  right: 0px;
+}
