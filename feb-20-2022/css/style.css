@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.sumi {
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background: radial-gradient(yellow, black);
+  animation: roksana 5s infinite;
+}
+
+@keyframes roksana {
+  0% {
+    width: 150px;
+    height: 150px;
+    transform: translateX(-150px);
+    box-shadow: 0 0 5px orangered, 0 0 20px #000 inset;
+  }
+  25% {
+    width: 250px;
+    height: 250px;
+    transform: translateX(0px);
+    box-shadow: 0 0 5px orangered, 0 0 20px #000 inset;
+  }
+  50% {
+    width: 150px;
+    height: 150px;
+    transform: translateX(150px);
+    box-shadow: 0 0 30px orangered, 0 0 20px #000 inset;
+  }
+  75% {
+    width: 250px;
+    height: 250px;
+    transform: translateX(0px);
+    box-shadow: 0 0 30px orangered, 0 0 20px #000 inset;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    transform: translateX(-150px);
+    box-shadow: 0 0 5px orangered, 0 0 20px #000 inset;
+  }
+}
