@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bgColor : limegreen;
+@mixin mehedi ($w:300px, $h:300px, $b:hotpink) {
+    width: $w;
+    height: $h;
+    background: $b;
+    margin: 20px;
+}
+
+.sumi {
+    @include mehedi(300px, 100px, cornflowerblue);
+}
+
+.tania {
+    @include mehedi(200px, 200px, $bgColor);
+}
+
+.moriom{
+    @include mehedi();
+}
+
+.bd{
+    @include mehedi(300px, 300px, red);
+    display: flex;
+    >.dhk{
+        @include mehedi(200px, 200px, green);
+        display: flex;
+        margin: auto;
+        >.dhan{
+            @include mehedi(100px, 100px, blue);
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sumi {
+  width: 300px;
+  height: 100px;
+  background: cornflowerblue;
+  margin: 20px;
+}
+
+.tania {
+  width: 200px;
+  height: 200px;
+  background: limegreen;
+  margin: 20px;
+}
+
+.moriom {
+  width: 300px;
+  height: 300px;
+  background: hotpink;
+  margin: 20px;
+}
+
+.bd {
+  width: 300px;
+  height: 300px;
+  background: red;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bd > .dhk {
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.bd > .dhk > .dhan {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
