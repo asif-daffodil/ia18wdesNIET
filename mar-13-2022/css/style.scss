@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+#topbar {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  #logo {
+    height: 80px;
+  }
+  nav {
+    #navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      li {
+        list-style: none;
+        padding: 0 20px;
+        a {
+          text-decoration: none;
+          display: block;
+          color: #000;
+          line-height: 80px;
+          position: relative;
+          &::before {
+            content: "";
+            width: 100%;
+            height: 5px;
+            background: #000;
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            display: none;
+          }
+          &:hover {
+            &::before {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#banner {
+  padding: 10px;
+  border: 1px solid #000;
+  margin-top: 20px;
+  img {
+    width: 100%;
+  }
+}
+
+#personalDeatils {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  figure {
+    img {
+      width: 100%;
+    }
+  }
+  aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      text-decoration: underline;
+    }
+    article {
+      margin: 16px 0;
+    }
+    button {
+      padding: 10px 24px;
+      width: max-content;
+      letter-spacing: 1px;
+      border-width: 0;
+      cursor: pointer;
+      background: #000;
+      color: #fff;
+      border-radius: 20px;
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+#projects {
+  h2 {
+    text-align: center;
+    font-size: 72px;
+    padding: 40px 0;
+  }
+  div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    figure {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#contact {
+  h2 {
+    text-align: center;
+    font-size: 72px;
+    padding: 40px 0;
+  }
+
+  form {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border-width: 0;
+      border-bottom: 1px solid #ccc;
+      &:focus {
+        outline: none;
+      }
+    }
+    input[type="submit"] {
+      padding: 8px 24px;
+      font-size: 24px;
+      letter-spacing: 3px;
+      cursor: pointer;
+      border-width: 0;
+      background: #000;
+      color: #fff;
+      border-radius: 24px;
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  font-size: 24px;
+  padding: 32px;
+  margin-top: 48px;
+}

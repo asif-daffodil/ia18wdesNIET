@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menubar {
+  list-style: none;
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background: #000;
+  text-align: center;
+}
+
+.menubar > li {
+  width: 100%;
+}
+
+.menubar > li > a {
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  display: block;
+}
+
+.menubar > li:hover {
+  background: blue;
+}
+
+.sumi {
+  width: 750px;
+  margin: auto;
+  background: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.sumi .rumi {
+  width: 75%;
+  height: 100px;
+  background: orange;
+}
+
+.sumi .omi {
+  width: 25%;
+  height: 100px;
+  background: cornflowerblue;
+}
+
+.sumi .fahad {
+  width: 100%;
+  height: 100px;
+  background: limegreen;
+}
+
+.mehedi {
+  width: 750px;
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.mehedi > .sadia {
+  background: red;
+}
+
+.mehedi > .unknownGirl {
+  background: blue;
+}
+/*# sourceMappingURL=style.css.map */

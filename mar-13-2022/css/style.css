@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+#topbar {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+#topbar #logo {
+  height: 80px;
+}
+
+#topbar nav #navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#topbar nav #navbar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+#topbar nav #navbar li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  line-height: 80px;
+  position: relative;
+}
+
+#topbar nav #navbar li a::before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: #000;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  display: none;
+}
+
+#topbar nav #navbar li a:hover::before {
+  display: block;
+}
+
+#banner {
+  padding: 10px;
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#personalDeatils {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+#personalDeatils figure img {
+  width: 100%;
+}
+
+#personalDeatils aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#personalDeatils aside h2 {
+  text-decoration: underline;
+}
+
+#personalDeatils aside article {
+  margin: 16px 0;
+}
+
+#personalDeatils aside button {
+  padding: 10px 24px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 1px;
+  border-width: 0;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#personalDeatils aside button:hover {
+  background: #fff;
+  color: #000;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 72px;
+  padding: 40px 0;
+}
+
+#projects div {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#projects div figure img {
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 72px;
+  padding: 40px 0;
+}
+
+#contact form {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#contact form input[type="text"],
+#contact form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-width: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#contact form input[type="text"]:focus,
+#contact form textarea:focus {
+  outline: none;
+}
+
+#contact form input[type="submit"] {
+  padding: 8px 24px;
+  font-size: 24px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border-width: 0;
+  background: #000;
+  color: #fff;
+  border-radius: 24px;
+}
+
+#contact form input[type="submit"]:hover {
+  background: #fff;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  font-size: 24px;
+  padding: 32px;
+  margin-top: 48px;
+}
+/*# sourceMappingURL=style.css.map */
